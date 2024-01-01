@@ -1,0 +1,12 @@
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        r2dbc: debug
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/fastsns
+    username: root
+    password: fastcampus
